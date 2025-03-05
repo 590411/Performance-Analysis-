@@ -13,15 +13,16 @@
 -  [Findings](#findings)
   
 ### Project overview
+---
 
----- Company information
+---- **Company information**
 
     - The company sells beds and sleep related accessories . It has several stores ,each of which have a home manager
     - Each store sells 4 brands of products including our own brand, Head Rest Beds
     - Each brand offers products in the categories of mattresses, bed frames, pillows and bed linen
     - Managers earn commission based on sales and their time in service
  
----- Delivrables
+---- **Delivrables**
 
    - Create a data model for analysis
    - Find keys problem within the business
@@ -40,10 +41,13 @@
 
 
  ### Data sources
+ ---
 
-Company  Data  ,the dataset use for this analysis is "SalesData.xlsx"  file . we have data on sales , promotions , products , stores and managers
+*Company  Data  ,the dataset use for this analysis is "SalesData.xlsx"  file . we have data on sales , promotions , products , stores and managers*
 
 ### Tools
+---
+
   - Excel-power query : Data cleaning
   - Excel-power pivot : Data model 
   - Excel-power pivot-DAX : Calculating mesures
@@ -52,6 +56,7 @@ Company  Data  ,the dataset use for this analysis is "SalesData.xlsx"  file . we
       - [Download Excel here](https://microsoft.com)
 
 ### Data cleaning 
+---
 
     1.No duplicate found
 	2.No Null/NA value found
@@ -60,6 +65,7 @@ Company  Data  ,the dataset use for this analysis is "SalesData.xlsx"  file . we
 We just had to transform the data on sales , promotions , products , stores and managers into tables
 
 ### Exploratory data analysis
+---
 
 EDA involved exploring  the sales data to  answer key question , such as :
 
@@ -69,6 +75,7 @@ EDA involved exploring  the sales data to  answer key question , such as :
   - what is the Sales units, growth sales and margin per brand  ?
 
 ### Data analysis
+---
 
 ```DAX
 To create the model , the source data has been normalized  in order to Reduced storage space , Easier maintenance and Improved query speed . The normalization gave
@@ -101,7 +108,7 @@ To create the model , the source data has been normalized  in order to Reduced s
 
 
 
- ## Function use
+ ##Function use
 	 
 		-- Creating a calculated column for the store size using the switch function :: =SWITCH(Dim_Stores[Store Type],"SM","Small","MED","Medium","WAREHOUSE","WAREHOUSE","OTHER")
 			
@@ -126,6 +133,7 @@ To create the model , the source data has been normalized  in order to Reduced s
 ```
 
 ### Findings
+---
 
 -- On the business over view we are able to dive in the performance by store , category and brand of bed that the company sells.
  
@@ -133,5 +141,5 @@ To create the model , the source data has been normalized  in order to Reduced s
    Also we can assess the performance of each manager responsible for the store at any given period
  
 
-
+💻💻  
 
