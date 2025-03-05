@@ -27,8 +27,20 @@
    - Find keys problem within the business
    - Build a business overview dashboard
    - Build a store performance dashboard
+  
+![1](https://github.com/user-attachments/assets/14b7a46a-0053-41e6-8c67-7adebbfba884)
+
+![2](https://github.com/user-attachments/assets/5ebd90a0-e29d-483b-add8-75b756c041af)
+
+![3](https://github.com/user-attachments/assets/ad29c707-c4d1-443a-9807-f150e69a9c5b)
+
+![4](https://github.com/user-attachments/assets/9ac660cd-97e6-485a-a146-d27eff566d3c)
+
+![5](https://github.com/user-attachments/assets/f4cff69b-3db1-4738-830c-4cdd7138462f)
+
 
  ### Data sources
+
 Company  Data  ,the dataset use for this analysis is "SalesData.xlsx"  file . we have data on sales , promotions , products , stores and managers
 
 ### Tools
