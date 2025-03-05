@@ -4,13 +4,13 @@
 ## Company activity/ field : Retail Company - Head Rest Ltd
 
 ## Table of Content
--  [Project Overview](project-overview)
--  [Data Sources](data_sources)
--  [Tools](Tools)
--  [Data cleaning / preparation ](Data_cleaning_/_preparation )
--  [Exploratory data analysis](Exploratory_data_analysis)
--  [Data analysis](Data_analysis)
-- [Results / Findings](Results_/_Findings)
+-  [Project Overview](#project-overview)
+-  [Data Sources](#data-sources)
+-  [Tools](#tools)
+-  [Data cleaning ](#data-cleaning )
+-  [Exploratory data analysis](#exploratory-data-analysis)
+-  [Data analysis](#data-analysis)
+-  [Findings](#findings)
   
 ### Project overview
 
@@ -39,7 +39,7 @@ Company  Data  ,the dataset use for this analysis is "SalesData.xlsx"  file . we
   - Excel-pivot chart : Dynamic visualisation
       - [Download Excel here](https://microsoft.com)
 
-### Data cleaning / preparation 
+### Data cleaning 
 
     1.No duplicate found
 	2.No Null/NA value found
@@ -113,7 +113,7 @@ To create the model , the source data has been normalized  in order to Reduced s
 		
 ```
 
-### Results / Findings
+### Findings
 
 -- On the business over view we are able to dive in the performance by store , category and brand of bed that the company sells.
  
